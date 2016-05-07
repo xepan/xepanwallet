@@ -1,0 +1,32 @@
+{
+    "name": "xepan/xepanwallet",
+    "type": "library",
+    "description": "xepan wallet credit Payment Gateway for OmniPay ",
+    "homepage": "https://github.com/xepan/xepanwallet",
+    "keywords": ["xEpan","SaaS","ERP","PaymentGateway", "Omnipay","xepanwallet"],
+    "license": "MIT",
+    "minimum-stability" : "dev",
+    "authors": [
+        {
+            "name": "Xavoc Technocrats Pvt. Ltd.",
+            "email": "info@xavoc.com"
+        }
+    ],
+    "source": {
+        "url": "git@github.com:xepan/xepanwallet.git",
+        "type": "git",
+        "reference": "origin/master"
+    },
+    "require": {
+        "omnipay/common": "~2.0",
+        "php": ">=5.3"
+    },
+    "autoload": {
+        "psr-4": { "Omnipay\\xepanwallet\\" : "src/" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0.x-dev"
+        }
+    }
+}
